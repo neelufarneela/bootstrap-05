@@ -1,0 +1,49 @@
+.banner{
+	background-image: url(../images/clouds.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+.slider{
+	background-color: rgba(1,1,1,.7);
+	color: #ffffff;
+	padding: 60px 70px;
+}
+.slider h1{
+	font-size: 30px;
+	margin: 30px 0;
+}
+.slider p{
+	font-size: 20px;
+	margin-bottom: 30px;
+}
+.slider button{
+	font-weight: 500;
+	background-color: #545859;
+	color: #ffffff;
+	border: none;
+	border: 1px solid #9b9e9e;
+	border-radius: 5px;
+	padding: 5px 15px;
+	margin-top: 10px;
+	margin-bottom: 80px;
+	transition-duration: 0.5s;
+}
+.slider button:hover{
+	background-color: #9b9e9e;
+	color: #111;
+}
+.custom_indicators{
+    bottom: 40px;
+}
+.custom_indicators li{
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: #9b9e9e;
+}
+.scrollspy_custom2{
+    height: 250px;
+    margin-top: .5rem;
+    overflow: auto;
+}
